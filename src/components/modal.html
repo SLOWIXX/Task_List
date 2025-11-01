@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Modal</title>
+</head>
+<body>
+    <div id="taskModal" class="modal">
+        <div class="modal-body">
+            <h3>Ajouter une tâche</h3>
+            <form id="forme-nouvelle-tache">
+                <label class="champ">
+                    <span>Titre</span>
+                    <input name="titre" type="text" required maxlength="120" />
+                </label>
+                <label class="champ">
+                    <span>Détails</span>
+                    <textarea name="details" rows="3"></textarea>
+                </label>
+                <div class="actions-modal">
+                    <button type="submit" class="btn-primaire">Ajouter</button>
+                    <button type="button" id="annuler-btn">Annuler</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
